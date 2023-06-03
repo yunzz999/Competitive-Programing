@@ -1,0 +1,34 @@
+## Que son los Iteradores?
+Almacenan donde se encuentra un valor de un vector, conjunto o map.
+
+*No contienen el valor , solo saben su direccion de memoria*
+***
+## Ejemplos (Vectores)
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(){
+    vector <int> v(3);
+    v[0]=0;v[1]=1;v[2]=2;
+
+    vector<int>::iterator itr;
+
+    itr = v.begin();
+    
+    cout <<*itr <<endl;
+
+    *itr+=1;
+
+    cout<<*itr<<" "<<v[0]<<endl;
+
+    itr+=2;
+
+    cout<<*itr<<" "<<v[2]<<endl;
+    return 0;
+}
+```
+
+## [Ejemplo en Replit](https://replit.com/join/avdzzizxiy-benjajunemann)
