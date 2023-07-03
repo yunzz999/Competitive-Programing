@@ -68,3 +68,39 @@ int main(){
 	}
 	return 0;
 }
+```
+
+# Selection Sort 
+
+El nombre proviene de que si uno tiene un arreglo de n números, busca cual es el menor, lo selecciona y lo pone al principio
+
+Luego se repite el  proceso, pero ahora con n-1 numeros, ya que el numero ya fue puesto donde debia.
+
+## Implementacion en codigo
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+	vector<int>numeros={2,5,7,8,9};
+	int i,j,dondeEstaELMinimo;
+	for(i=0;i<n-1;i++){
+		dondeEstaElminimo=i;
+		for(j=i+1;j<n;j++){
+			if(numeros[j]<numeros[dondeEstaElMinimo]){
+				dondeEstaElMinimo=j;
+			}
+		}
+		int temp=numeros[dondeEstaElMinimo];
+		numeros[dondeEstaElMinimo]=numeros[i];
+		numeros[i]=numeros[dondeEstaElMinimo];
+	}
+	for(i=0;i<n;i++){
+		cout<<numeros[i]<<" ";
+	}
+	return 0;
+}
+```
+
+complejidad O(n^2)

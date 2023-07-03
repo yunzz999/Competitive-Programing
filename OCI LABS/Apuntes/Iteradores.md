@@ -32,3 +32,7 @@ int main(){
 ```
 
 ## [Ejemplo en Replit](https://replit.com/join/avdzzizxiy-benjajunemann)
+
+[busqueda]
+
+
