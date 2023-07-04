@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a0621a5f6d436a4b",
+        "id": "9bcf100ec7272180",
         "type": "tabs",
         "children": [
           {
-            "id": "9f469c3cd6720317",
+            "id": "7f1f0b3528df64ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sorting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd0b6031694c64d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sorting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b782e5c0a4a476dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sort Nativo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bbb01ab560379e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Complejidad Computacional.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Complejidad Computacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Complejidad Computacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Complejidad Computacional.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -184,36 +139,41 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "27a2b9fe0c44f633",
+  "active": "7f1f0b3528df64ac",
   "lastOpenFiles": [
-    "Arreglos y Vectores.md",
-    "Búsqueda.md",
-    "Pares.md",
-    "Pilas y Colas.md",
-    "Sort Nativo.md",
-    "Strings.md",
-    "Tipos de datos.md",
-    "Uso de Sort en C++.md",
-    "Complejidad Computacional.md",
-    "Condicionales.md",
-    "Loops.md",
-    "Conjuntos.md",
-    "Sorting.md",
-    "Maps.md",
-    "Iteradores.md",
-    "Funciones.md",
-    "Untitled.canvas",
+    "16. Recursividad.md",
+    "19. Algoritmo de Dijkstra.md",
+    "18. Búsqueda en Grafos.md",
+    "17. Grafos.md",
+    "1. Tipos de datos.md",
+    "15. Búsqueda.md",
+    "14. Sort Nativo.md",
+    "13. Sorting.md",
+    "12. Maps.md",
+    "11. Pares.md",
+    "10. Conjuntos.md",
+    "9. Iteradores.md",
+    "8. Pilas y Colas.md",
+    "7. Complejidad Computacional.md",
+    "6. Arreglos y Vectores.md",
+    "5. Funciones.md",
+    "4. Loops.md",
+    "3. Condicionales.md",
+    "2. Strings.md",
+    "20. Programación Dinámica.md",
     "Untitled",
+    "Images/Pasted image 20230704002146.png",
+    "Images/Pasted image 20230704002131.png",
+    "Images/Pasted image 20230703200720.png",
+    "Uso de Sort en C++.md",
+    "Images",
+    "Untitled.canvas",
     "2023-06-03.md",
     "Untitled 1.canvas",
     "2023-05-21.md",
     "Nuevo Documento de texto.txt",
     "tipos_de_datos.md",
     "Tipos_de_datos.md",
-    "Pilas_y_Colas.md",
-    "pilas_y_colas.md",
-    "pares.md",
-    "maps.md",
-    "iteradores.md"
+    "Pilas_y_Colas.md"
   ]
 }
