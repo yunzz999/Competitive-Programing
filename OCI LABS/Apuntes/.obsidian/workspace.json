@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1 Tipos de datos.md",
+                "file": "4.4 Recursividad.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.1 Tipos de datos.md",
+                "file": "4.4 Recursividad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.1 Tipos de datos.md",
+                "file": "4.4 Recursividad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.1 Tipos de datos.md"
+                "file": "4.4 Recursividad.md"
               }
             }
           }
@@ -149,13 +149,18 @@
   },
   "active": "7f1f0b3528df64ac",
   "lastOpenFiles": [
+    "2.2 Complejidad Computacional.md",
+    "3.1 Pilas y Colas.md",
+    "Pasted image 20230705141448.png",
+    "Pasted image 20230705141221.png",
+    "Pasted image 20230705141156.png",
+    "Pasted image 20230705141123.png",
+    "1.1 Tipos de datos.md",
     "1.2 Strings.md",
     "1.3 Condicionales.md",
     "1.4 Loops.md",
     "1.5. Funciones.md",
-    "2.2 Complejidad Computacional.md",
     "2.1 Arreglos y Vectores.md",
-    "1.1 Tipos de datos.md",
     "Untitled.canvas",
     "Images/Pasted image 20230705011227.png",
     "Images/Pasted image 20230705010914.png",
@@ -172,7 +177,6 @@
     "3.4 Pares.md",
     "3.3 Conjuntos.md",
     "3.2 Iteradores.md",
-    "3.1 Pilas y Colas.md",
     "Untitled",
     "Images/Pasted image 20230704002146.png",
     "Images/Pasted image 20230704002131.png",
