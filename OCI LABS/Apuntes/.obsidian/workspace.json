@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1 Tipos de datos.md",
+                "file": "5.3 Algoritmo de Dijkstra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.1 Tipos de datos.md",
+                "file": "5.3 Algoritmo de Dijkstra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.1 Tipos de datos.md",
+                "file": "5.3 Algoritmo de Dijkstra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.1 Tipos de datos.md"
+                "file": "5.3 Algoritmo de Dijkstra.md"
               }
             }
           }
@@ -139,16 +139,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir quick switcher": false,
-      "graph:Abrir vista de gráfico": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false
     }
   },
   "active": "925b02bd0b086e9a",
   "lastOpenFiles": [
+    "1.1 Tipos de datos.md",
     "1.2 Strings.md",
     "1.3 Condicionales.md",
     "5.3 Algoritmo de Dijkstra.md",
@@ -176,7 +177,6 @@
     "2.2 Complejidad Computacional.md",
     "1.5. Funciones.md",
     "1.4 Loops.md",
-    "1.1 Tipos de datos.md",
     "Images/Pasted image 20230706202735.png",
     "Images/Pasted image 20230706203829.png",
     "Images/Pasted image 20230706203641.png",
