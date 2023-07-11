@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.3 Algoritmo de Dijkstra.md",
+                "file": "5.4 Programación Dinámica.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.3 Algoritmo de Dijkstra.md",
+                "file": "5.4 Programación Dinámica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.3 Algoritmo de Dijkstra.md",
+                "file": "5.4 Programación Dinámica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.3 Algoritmo de Dijkstra.md"
+                "file": "5.4 Programación Dinámica.md"
               }
             }
           }
@@ -149,11 +149,12 @@
   },
   "active": "925b02bd0b086e9a",
   "lastOpenFiles": [
+    "().md",
     "5.4 Programación Dinámica.md",
+    "Images/Pasted image 20230711021734.png",
+    "5.3 Algoritmo de Dijkstra.md",
     "5.1 Grafos.md",
     "5.2 Búsqueda en Grafos.md",
-    "5.3 Algoritmo de Dijkstra.md",
-    "().md",
     "Images/Pasted image 20230710234056.png",
     "Images/Pasted image 20230710233144.png",
     "README.md",
@@ -182,7 +183,6 @@
     "1.4 Loops.md",
     "Images/Pasted image 20230706202735.png",
     "Images/Pasted image 20230706203829.png",
-    "Images/Pasted image 20230706203641.png",
     "3.4 Pares.md",
     "Untitled.canvas",
     "Untitled",
