@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.4 Programación Dinámica.md",
+                "file": "5.3 Algoritmo de Dijkstra.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.4 Programación Dinámica.md",
+                "file": "5.3 Algoritmo de Dijkstra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.4 Programación Dinámica.md",
+                "file": "5.3 Algoritmo de Dijkstra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.4 Programación Dinámica.md"
+                "file": "5.3 Algoritmo de Dijkstra.md"
               }
             }
           }
@@ -147,17 +147,17 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "925b02bd0b086e9a",
+  "active": "27a2b9fe0c44f633",
   "lastOpenFiles": [
-    "().md",
     "5.4 Programación Dinámica.md",
-    "Images/Pasted image 20230711021734.png",
+    "README.md",
     "5.3 Algoritmo de Dijkstra.md",
-    "5.1 Grafos.md",
     "5.2 Búsqueda en Grafos.md",
+    "().md",
+    "Images/Pasted image 20230711021734.png",
+    "5.1 Grafos.md",
     "Images/Pasted image 20230710234056.png",
     "Images/Pasted image 20230710233144.png",
-    "README.md",
     "1.1 Tipos de datos.md",
     "1.2 Strings.md",
     "1.3 Condicionales.md",
