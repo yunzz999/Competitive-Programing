@@ -1,5 +1,6 @@
 #script
 git.py
+script.py
 
 # to exclude Obsidian workspace settings (including plugin and hotkey configurations)
 .obsidian/*
