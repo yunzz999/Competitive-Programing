@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3.5 Maps.md",
+                "file": "3.4 Pares.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3.5 Maps.md",
+                "file": "3.4 Pares.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3.5 Maps.md",
+                "file": "3.4 Pares.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3.5 Maps.md"
+                "file": "3.4 Pares.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "925b02bd0b086e9a",
   "lastOpenFiles": [
+    "4.3 Búsqueda.md",
+    "3.5 Maps.md",
     "Images/Pasted image 20230711021734.png",
     "Images/Pasted image 20230710234056.png",
     "Images/Pasted image 20230710233144.png",
@@ -156,7 +158,6 @@
     "3.3 Conjuntos.md",
     "3.2 Iteradores.md",
     "3.1 Pilas y Colas.md",
-    "3.5 Maps.md",
     "4.1 Sorting.md",
     "2.1 Arreglos y Vectores.md",
     "1.1 Tipos de datos.md",
@@ -176,14 +177,12 @@
     "Images/Pasted image 20230706211937.png",
     "5.1 Grafos.md",
     "4.4 Recursividad.md",
-    "4.3 Búsqueda.md",
     "4.2 Sort Nativo.md",
     "2.2 Complejidad Computacional.md",
     "1.5. Funciones.md",
     "1.4 Loops.md",
     "Images/Pasted image 20230706202735.png",
     "Images/Pasted image 20230706203829.png",
-    "Images/Pasted image 20230706203641.png",
     "README.md",
     "Untitled.canvas",
     "Untitled",
