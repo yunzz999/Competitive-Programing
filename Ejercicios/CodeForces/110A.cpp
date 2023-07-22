@@ -2,9 +2,8 @@
 using namespace std;
 
 int main(){
-    long long n;
-    bool four =false , seven = false , other = false;
-    vector <int> v;
+    long long n ,lnumbers=0;
+    vector <long long> v;
     cin>>n;
     while (n>0){
         v.push_back(n%10);
@@ -12,24 +11,14 @@ int main(){
     }
 
     for(int i=0;i<v.size();i++){
-        if(v[i]==4){
-            four=true;
-        }
-        else if(v[i]==7){
-            seven = true;
-        }
-        else{
-            other=true;
+        if(v[i]==4 || v[i]==7){
+            lnumbers++;
         }
     }
-
-    if(seven==true&&four==true&&other==false){
-        cout<<"YES"<<endl;
+    if(lnumbers==7 || lnumbers==4){
+        cout<<"YES";
     }
     else{
         cout<<"NO";
     }
 }
-
-//xd
-
