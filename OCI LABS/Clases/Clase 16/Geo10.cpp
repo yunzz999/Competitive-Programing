@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#define REP(i,a,b) for(int i =a;i<b;i++)
 using namespace std;
 
 vector < vector <int> > matriz; //Definicion de la matriz
@@ -29,7 +28,7 @@ int main(){  // creando la matriz
     int n,m;
     cin>>n>>m; // n es el numero de nodos , m es el numero de aristas
 	crear_matriz(n);
-    REP(i,0,m){
+    for(int i=0;i<n;i++){
         int x,y;
         cin>>x>>y;
         agregar_vecino(x,y);
@@ -39,3 +38,4 @@ int main(){  // creando la matriz
     }
 	return 0;
 }
+//error 
