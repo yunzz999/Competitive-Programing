@@ -33,6 +33,35 @@ cin.tie(0);
 ```
 
 Además 
+notar que "\n" funciona mejor que endl
+
+Leer toda la linea del input
+```cpp
+string s;
+getline(cin,s);
+```
+
+Cuando no se sabe cuantos datos tendrá la entrada se suele usar
+```cpp
+while(cin>>x){
+	//code
+}
+```
+
+```cpp
+long long a = 1e-9
+#typedef long long ll;
+ll b = 1e-10
+#typedef vector <int> vi;
+vi numbers;
+
+#define REP(i,a,b) for(int i=a;i<=b;i++)
+
+REP(i,0,n){
+	cout<<i;
+}
+```
+
 ***
 
 
