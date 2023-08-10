@@ -23,13 +23,15 @@ int main(){
     crear_lista(n);
     for(int i=0;i<m;i++){
         cin>>x>>y;
-        agregar_vecino(x,y-1);
+        agregar_vecino(x,y);
     }
     for(int i=1;i<n;i++){
         cout<<lista_ad[i].size()<<endl;
     }
 
 }
+
+//error
 
 
 
