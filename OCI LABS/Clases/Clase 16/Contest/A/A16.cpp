@@ -1,37 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector < vector <int> > lista_ad;
-
-void crear_lista(int n){
-	for(int i=0;i<n;i++){
-		vector <int> nodo= {};
-		lista_ad.push_back(nodo);
-	}
-}
-
-void agregar_vecino(int nodo1,int nodo2){
-	lista_ad[nodo1].push_back(nodo2);
-	lista_ad[nodo2].push_back(nodo1);
-}
-
-
-
 int main(){
-    int n,m,x,y;
-    cin>>n>>m;
-    crear_lista(n);
-    for(int i=0;i<m;i++){
-        cin>>x>>y;
-        agregar_vecino(x,y);
+    int n ,m;
+    cin>>n >>m;
+    vector <vector<int>> grafo (n+1);
+    while(m--){
+        int u,v;
+        cin>>u>>v;
+        grafo[u].push_back(v);
+        grafo[v].push_back(u);
     }
-    for(int i=1;i<n;i++){
-        cout<<lista_ad[i].size()<<endl;
+    for(int i=0;i<=n;i++){
+        cout<<grafo[i].size()<<endl;
     }
-
+    return 0;
 }
-
-//error
 
 
 
