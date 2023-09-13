@@ -1,3 +1,4 @@
-# 🐙 Introducción
+# 🐙 Introdution
 
-Este repositorio incluye los apuntes, ejercicios y material que utilicé para la preparación de la [Olimpiada Chilena de Informática 2023 (OCI)](http://www.olimpiada-informatica.cl/), además de algunos ejercicios resueltos de plataformas como [Codeforces](https://codeforces.com/).
+This repository includes notes, exercises and material that I used to start in competitive programming , so if u want take a look.
+
