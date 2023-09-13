@@ -1,3 +1,4 @@
-# 🍁 Recomendacion
+# 🍁 Recomendation
 
-Los apuntes fueron hechos desde [Obsidian](https://obsidian.md), por lo tanto es recomendable descargar el repositorio y ver los apuntes desde Obsidian para mayor comodidad.
+
+These are my notes from the [OCI LABS](https://ocilabs.cl) (advanced) course, the notes are taken in obsidian, so if you want to read them, I think you should do it from obsidian or some MARKDOWN interpreter.
