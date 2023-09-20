@@ -6,7 +6,6 @@ int main(){
     ios::sync_with_stdio(0);
 	cin.tie(0);
     long long number , temp=2,N=2;
-    //number=1e5;
     cin>>number;
     vector<pair<long long , long long>> v{{1, 1}, {2, 2}};
 
