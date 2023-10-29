@@ -18,7 +18,7 @@ int main(){
     }
 
     if(ataque_maximo>=poblacion_maxima and n>=m){
-        cout<<"YES"<<endl;
+        cout<<"SI"<<endl;
     }
     else{
         cout<<"NO"<<endl;
