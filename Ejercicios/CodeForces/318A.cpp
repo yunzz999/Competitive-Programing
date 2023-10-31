@@ -1,34 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int intento1xd(){
-    long long n,k,par=0,impar=0;
+int main(){
+    int n,k;
     cin>>n>>k;
-    vector <long long> numeros (n);
-    for(long long i=1;i<=n;i++){
-        if(n/2%2==0){
-            if(i%2==0){
-                numeros[n/2+par]=i;
-                par++;
-            }
-            else{
-                numeros[0+impar]=i;
-                impar++;
-            }
-        }
-        else{
-            if(i%2==0){
-                numeros[n/2+1+par]=i;
-                par++;
-            }
-            else{
-                numeros[0+impar]=i;
-                impar++;
-            }
-        }
+
+    if(k>n/2 and n%2==0){
+        k=k-n/2;
+        cout<<2*k;
     }
-    cout<<numeros[k-1]<<endl;
-    return 0;
+
+    else if(k<n/2 and n%2==0){
+        cout<<1+2*(k-1);
+    }
+
+    else if(k>n/2+1 and n%2!=0){
+        k=(k-n/2)-1;
+        cout<<2*k;
+    }
+
+    else if(k<=n/2+1 and n%2!=0){
+        cout<<1+2*(k-1);
+    }
 }
 
-//rechazado por tiempo de complejidad
+//tiempo de complejidad
