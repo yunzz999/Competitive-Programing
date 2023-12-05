@@ -38,3 +38,5 @@ int main(){
     cout<<i-1;
 
 }
+
+// esta mal la logica , falta considerar puntos dentro del radio y numeros decimales
