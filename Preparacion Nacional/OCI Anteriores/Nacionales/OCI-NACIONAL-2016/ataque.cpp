@@ -21,4 +21,4 @@ int main(){
     cout<<ejercito_atacante<<" "<<ejercito_defensor;
 }
 
-//100 de 100 puntos 
+// Resuelto (100pts)

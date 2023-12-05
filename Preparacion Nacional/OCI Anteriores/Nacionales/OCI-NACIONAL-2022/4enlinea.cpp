@@ -5,4 +5,4 @@ int main(){
 
 }
 
-// Se resuelve con Dijstra
+// imposible si esque hay mas del perdedor que de el ganador
