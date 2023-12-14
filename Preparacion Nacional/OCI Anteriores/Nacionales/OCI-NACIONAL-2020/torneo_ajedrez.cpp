@@ -12,7 +12,7 @@ void winners (vector<double> v){
     }
 
     for(int i=0;i<v.size();i++){
-        if(v[i]=puntaje_maximo){
+        if(v[i]==puntaje_maximo){
             cout<<i<<endl;
         }
     }
@@ -23,9 +23,9 @@ void winners (vector<double> v){
 
 int main(){
     int n,p,a,b,c;
+    cin>>n>>p;
     vector <double> part(n);
     vector <double> w;
-    cin>>n>>p;
     for(int i=0;i<p;i++){
         cin>>a>>b>>c;
         if(c==-1){
@@ -41,3 +41,5 @@ int main(){
     }    
     winners(part);
 }
+
+// Parcialmente Resuelto (55 pts)
