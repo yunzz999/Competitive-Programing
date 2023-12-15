@@ -1,29 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    vector <int>inicial(4);
-    vector<int>final(4);
+int main() {
+    vector<int> inicial(4);
+    vector<int> final(4);
 
-    for(int i=0;i<4;i++){
-        cin>>inicial[i];
+    for (int i = 0; i < 4; i++) {
+        cin >> inicial[i];
     }
 
-    for(int i =0;i<4;i++){
-        cin>>final[i];
+    for (int i = 0; i < 4; i++) {
+        cin >> final[i];
     }
 
-    int min_mov=0;
+    int min_mov = 0;
 
-    for(int i=0;i<4;i++){
-        if(abs(inicial[i]-final[i])>5){
-            min_mov+=min(9-final[i]+inicial[i],9-inicial[i]+final[i]+1);
-        }
-        else{
-            min_mov+=abs(inicial[i]-final[i]);
-        }
+    for (int i = 0; i < 4; i++) {
+        int diff = abs(inicial[i] - final[i]);
+        min_mov += min(diff, 10 - diff);
     }
-    cout<<min_mov<<"\n";
+
+    cout << min_mov << "\n";
+
 }
 
-// Resuelto parcialmente (75 pts)
+//resuelto 100 pts

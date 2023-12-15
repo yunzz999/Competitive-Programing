@@ -29,7 +29,9 @@ for(int i=0;i<n;i++){
 		}
 	}
 }
+
 // O(n^2)
+
 ```
 
 ## Sorting in C++
@@ -66,10 +68,6 @@ while(a<=b){
 
 ## C++ functions
 ### Bounds
-
-**Lower_bound** : Returns a pointer to the first array element whose value is *at least* x
-**Upper_bound** : Returns a pointer to the first array element whose value is *larger* x
-**Equal_range** : Returns both above pointers (Pair)
 
 ```cpp
 auto k = lower_bound(v.begin(),v.end(),x);
