@@ -25,27 +25,49 @@ void triangular_numbers(int n){
     }
 }
 
-int count_divisors(int n){
-    int count =2;
-    int raiz = sqrt(n)+1;
-    for(int i=2;i<raiz;i++){
-        if(n%i==0){
-            count++;
+int count_divisors(int numero) {
+    int contador = 0;
+    int limite = sqrt(numero);
+
+    for (int i = 1; i <= limite; ++i) {
+        if (numero % i == 0) {
+            contador += 2;  // Contar tanto i como n/i
+
+            // Si i es la raíz cuadrada exacta, ajustar el contador
+            if (i == limite && numero / i == i) {
+                contador--;
+            }
         }
     }
-    return count;
-}
 
+    return contador;
+}
 
 int main() {
-  ios_base::sync_with_stdio(false);
-  cin.tie(nullptr);
-  cout.setf(ios::fixed);
-  cout.precision(10);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.setf(ios::fixed);
+    cout.precision(10);
   
-    triangular_numbers(1e7);
-
+    triangular_numbers(1e8);
+    cout<<"Creada la lista de numeros... "<<endl;
+    // 8.648.640
     //Buscar como mejorar complejidad algoritmica
-  
-  return 0;
+    int numero =2;
+    for(int i=1e7;i<1e8;i++){
+        if(count_divisors(i)>500){
+            numero=i;
+            cout<<numero<<": "<<count_divisors(i)<<" ";
+            if(is_triangular(i)){
+                cout<<"y"<<endl;
+            }
+            else{
+                cout<<"n"<<endl;
+            }
+        }
+    }    
+    return 0;
 }
+
+
+//optimizar
