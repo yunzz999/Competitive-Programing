@@ -1,0 +1,2 @@
+Subtask 1: st1.*
+Subtask 2: (st1|st2).*

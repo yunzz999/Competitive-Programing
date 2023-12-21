@@ -16,11 +16,13 @@ bool is_triangular(int n){
     }
 }
 
-
-void triangular_numbers(int n){
+void triangular_numbers(){
     int sum=1;
-    rep_(i,2,n){
-        s.insert(sum);
+    int i=2;
+    while(1e8>sum){
+        if(sum>1e7){
+            s.insert(sum);
+        }
         sum+=i;
     }
 }
@@ -49,17 +51,16 @@ int main() {
     cout.setf(ios::fixed);
     cout.precision(10);
   
-    triangular_numbers(1e8);
+    triangular_numbers();
     cout<<"Creada la lista de numeros... "<<endl;
-    // 8.648.640
-    //Buscar como mejorar complejidad algoritmica
-    int numero =2;
-    for(int i=1e7;i<1e8;i++){
+    auto it = s.begin();
+    
+    for(int i=99999900;i<1e9;i++){
         if(count_divisors(i)>500){
-            numero=i;
-            cout<<numero<<": "<<count_divisors(i)<<" ";
+            cout<<i<<": "<<count_divisors(i)<<" ";
             if(is_triangular(i)){
                 cout<<"y"<<endl;
+                return 0;
             }
             else{
                 cout<<"n"<<endl;
@@ -69,5 +70,4 @@ int main() {
     return 0;
 }
 
-
-//optimizar
+// XD Noma
