@@ -5,12 +5,12 @@ using namespace std;
 typedef long long ll;
 
 int main() {
-  ios_base::sync_with_stdio(false);
-  cin.tie(nullptr);
-  cout.setf(ios::fixed);
-  cout.precision(10);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.setf(ios::fixed);
+    cout.precision(10);
   
-  // Solution Here
+    // Solution Here
   
-  return 0;
+    return 0;
 }
