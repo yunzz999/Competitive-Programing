@@ -5,7 +5,7 @@ typedef long long ll;
 #define rep_(i,k,n) for for(int i=k;i<n;i++)
 
 
-//Funcion para saber si un numero es primo (optimizada)
+
 
 bool isPrime(ll n){
     ll raiz = sqrt(n)+1;
