@@ -21,7 +21,7 @@ int main() {
         be[i]=d*be[i];
         p.push_back(be[i]); 
     }
-    // sale con dp
+    
 
 	return 0;
 }
