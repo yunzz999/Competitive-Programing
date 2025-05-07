@@ -2,26 +2,20 @@
 using namespace std;
 
 int main(){
-    int n,k;
+    int n,k,g;
     cin>>n>>k;
-
-    if(k>n/2 and n%2==0){
-        k=k-n/2;
-        cout<<2*k;
+    if(n%2==0){
+        g=n/2;
+    }
+    else{
+        g=n/2 +1;
     }
 
-    else if(k<n/2 and n%2==0){
-        cout<<1+2*(k-1);
+    if(k>g){
+        cout<<2*(k-g);
     }
-
-    else if(k>n/2+1 and n%2!=0){
-        k=(k-n/2)-1;
-        cout<<2*k;
-    }
-
-    else if(k<=n/2+1 and n%2!=0){
-        cout<<1+2*(k-1);
+    else{
+        cout<<2*(k-1)+1;
     }
 }
 
-//tiempo de complejidad
